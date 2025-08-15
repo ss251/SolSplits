@@ -6,9 +6,10 @@ Revenue splitting protocol built on Solana for automated payment distribution.
 
 **✅ COMPLETED**
 - Anchor program fully implemented and tested
-- Deployed to Devnet: `4FEbQAQQiqoU6Xe3Daz54Dj6QDkFG6Yy6MioSziQvTCZ`
+- Deployed to Devnet: `4pCvQPP2gqbJg56xehy8XmMo98u5DhK6yrGtLGznfmAg`
 - All 4 core instructions working
 - Comprehensive test suite passing
+- Deployed by: `8UeRuQdqVCVwxERmajGkLon92Y8Ax3oJbDZQPGENzJkf` (Turbin3 wallet address)
 
 **⏳ IN PROGRESS**
 - Frontend application (Next.js + Bun + Privy + Gill)
@@ -121,7 +122,14 @@ await program.methods
 
 ## Deployed Addresses
 
-**Devnet**: `4FEbQAQQiqoU6Xe3Daz54Dj6QDkFG6Yy6MioSziQvTCZ`
+**Program ID**: `4pCvQPP2gqbJg56xehy8XmMo98u5DhK6yrGtLGznfmAg`
+
+**Deployment Details**:
+- Network: Devnet
+- Authority: `8UeRuQdqVCVwxERmajGkLon92Y8Ax3oJbDZQPGENzJkf`
+- Deploy Transaction: `5UvdE7cguzNf2eSV6WcsfoC9kaVMxkXFBkZjeUJPiVzNEnam2vj4UnTZCkibsur6wZMw8pVx72gyhVPcz11fwBFa`
+- Deployed in Slot: 401403187
+- Program Size: 313,928 bytes
 
 ## Development
 
@@ -136,7 +144,7 @@ anchor test --skip-local-validator
 
 Check program logs:
 ```bash
-solana logs --url devnet 4FEbQAQQiqoU6Xe3Daz54Dj6QDkFG6Yy6MioSziQvTCZ
+solana logs --url devnet 4pCvQPP2gqbJg56xehy8XmMo98u5DhK6yrGtLGznfmAg
 ```
 
 ## Architecture Decisions

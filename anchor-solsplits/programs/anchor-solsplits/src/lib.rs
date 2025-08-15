@@ -6,7 +6,7 @@ pub mod state;
 
 use instructions::*;
 
-declare_id!("4FEbQAQQiqoU6Xe3Daz54Dj6QDkFG6Yy6MioSziQvTCZ");
+declare_id!("4pCvQPP2gqbJg56xehy8XmMo98u5DhK6yrGtLGznfmAg");
 
 #[program]
 pub mod anchor_solsplits {

@@ -6,7 +6,10 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-anchor_solsplits = "4FEbQAQQiqoU6Xe3Daz54Dj6QDkFG6Yy6MioSziQvTCZ"
+anchor_solsplits = "4pCvQPP2gqbJg56xehy8XmMo98u5DhK6yrGtLGznfmAg"
+
+[programs.devnet]
+anchor_solsplits = "4pCvQPP2gqbJg56xehy8XmMo98u5DhK6yrGtLGznfmAg"
 
 [registry]
 url = "https://api.apr.dev"
