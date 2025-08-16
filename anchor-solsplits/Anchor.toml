@@ -1,6 +1,9 @@
 [toolchain]
 package_manager = "yarn"
 
+[workspace]
+members = ["programs/anchor-solsplits"]
+
 [features]
 resolution = true
 skip-lint = false
