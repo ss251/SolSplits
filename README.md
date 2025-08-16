@@ -127,9 +127,34 @@ await program.methods
 **Deployment Details**:
 - Network: Devnet
 - Authority: `8UeRuQdqVCVwxERmajGkLon92Y8Ax3oJbDZQPGENzJkf`
-- Deploy Transaction: `5UvdE7cguzNf2eSV6WcsfoC9kaVMxkXFBkZjeUJPiVzNEnam2vj4UnTZCkibsur6wZMw8pVx72gyhVPcz11fwBFa`
-- Deployed in Slot: 401403187
+- Latest Deploy Transaction: `3mAk1Am79zMY5mtFBZuDfAYuwnbnqsC9N4xaHhb9ZF9ZNo9BhL2FzWUPSWzzPgB79UVeJz36Lpexpr5JhBD5dMBR`
+- Deployed in Slot: 401430431
 - Program Size: 313,928 bytes
+
+## Program Verification
+
+**✅ VERIFIED ON-CHAIN**
+
+The deployed program has been verified to match the source code on GitHub.
+
+**Verification Details**:
+- **Source Code**: https://github.com/ss251/SolSplits
+- **Commit Hash**: `6105fc4aa5d7e1511fe79340743733f45b0dec42`
+- **Program Hash**: `5914e79c813ce0ba51257ebf1bcc29a2cc2e9b3cd2f7fecd348ec288e8af9c34`
+- **Verification PDA**: `6aaSFGGo9F9WpADPhCxe5kSgYmnht9qrVigsPePXpYq7`
+- **Verification Transaction**: `3Pgovsz58scpAbnSiVy9FnjwXPkeme66b7itZm4gCJXX74pB3dFejkBovn2jAiDCqH4JVS9GhiJ5i8Dc1QPD2wcT`
+- **Verified By**: `8UeRuQdqVCVwxERmajGkLon92Y8Ax3oJbDZQPGENzJkf`
+- **Verification Tool**: solana-verify v0.4.10
+
+Anyone can independently verify the program matches the source code by running:
+```bash
+solana-verify verify-from-repo \
+  --program-id 4pCvQPP2gqbJg56xehy8XmMo98u5DhK6yrGtLGznfmAg \
+  https://github.com/ss251/SolSplits \
+  --library-name anchor_solsplits \
+  --mount-path anchor-solsplits \
+  --url https://api.devnet.solana.com
+```
 
 ## Development
 
